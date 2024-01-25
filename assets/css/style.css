@@ -212,7 +212,7 @@ footer img {
 /* DESKTOP */
 @media only screen and (min-width: 1160px) {
     .logoAlura {
-        margin: 40px 84px;
+        margin: 40px 84px 0px 84px;
     }
 
     .workArea {
