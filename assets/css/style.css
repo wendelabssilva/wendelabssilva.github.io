@@ -72,16 +72,6 @@ body {
     transform: scale(0.95);
 }
 
-.buttons:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
-.buttons:active {
-    transition: all 1ms linear;
-    transform: scale(1.7);
-}
-
 .encrypt {
     background-color: #11417b;
     color: #D8DFE8;
@@ -211,6 +201,15 @@ footer img {
 
 /* DESKTOP */
 @media only screen and (min-width: 1160px) {
+    .buttons:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    
+    .buttons:active {
+        transition: all 1ms linear;
+        transform: scale(1.7);
+    }
     .logoAlura {
         margin: 40px 84px 0px 84px;
     }
