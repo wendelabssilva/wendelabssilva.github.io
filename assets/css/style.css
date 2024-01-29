@@ -8,7 +8,6 @@ body {
 
 .workArea {
     display: flex;
-
     align-items: center;
     gap: 100px;
 }
@@ -211,11 +210,11 @@ footer img {
         transform: scale(1.7);
     }
     .logoAlura {
-        margin: 40px 84px 0px 84px;
+        margin: 10px 84px 0px 84px;
     }
 
     .workArea {
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     .inputArea {
@@ -236,7 +235,8 @@ footer img {
 
     .inputText {
         width: 680px;
-        height: 600px;
+        height: auto;
+        max-height: 600px;
     }
 
     .outputArea {
@@ -265,7 +265,7 @@ footer img {
 @media only screen and (min-width: 730px) and (max-width: 1160px) {
 
     .logoAlura {
-        margin: 70px 40px;
+        margin: 10px 40px;
     }
 
     .workArea {
@@ -283,7 +283,8 @@ footer img {
 
     .inputText {
         width: 688px;
-        height: 288px;
+        height: auto;
+        max-height: 288px;
     }
 
     .notText img {
@@ -294,6 +295,7 @@ footer img {
         width: 638px;
         min-height: 600px;
         height: auto;
+        margin-bottom: 50px;
     }
 
     .outputText {
@@ -306,7 +308,7 @@ footer img {
     }
 
     .area1, .area21 {
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     .area2 {
@@ -337,11 +339,13 @@ footer img {
 
     .copy {
         width: 279px;
+        margin-bottom: 20px;
     }
 
     .inputText {
         width: 343px;
-        height: 624px;
+        height: auto;
+        max-height: 624px;
     }
 
     .notText img {
@@ -350,10 +354,12 @@ footer img {
 
     .outputArea {
         width: 327px;
-        min-height: 600px;
+        min-height: 200px;
+        max-height: 600px;
         height: auto;
         align-items: center;
         justify-content: center;
+        margin-bottom: 50px;
     }
 
     .outputText {
